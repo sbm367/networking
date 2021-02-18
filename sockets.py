@@ -12,3 +12,7 @@ s.bind( (socket.gethostname(), 1234) )
 
 #queue
 s.listen(5)
+
+While True:
+	clientsocket, address = s.accept()
+	print(f"Connection from {address} has been established")
