@@ -3,6 +3,6 @@ import urllib.request
 
 site = 'https://www.york.ac.uk/teaching/cws/wws/webpage1.html'
 
-#x = urllib.request.urlopen('https://www.google.com/')
+x = urllib.request.urlopen(site)
 
 print(x.read())
