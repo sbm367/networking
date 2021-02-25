@@ -1,8 +1,8 @@
 # Python Networking Project
 
-The purpose of this project is to learn basic netwokring in Python
+The purpose of this project is to learn basic netwokring and web services in Python
 
-The technologies covered in these examples are:
+The concepts & technologies covered in these examples are:
 
 * TCP/IP Model
 * Sockets
@@ -10,6 +10,10 @@ The technologies covered in these examples are:
 * BeautifulSoup
 * JSON & XML
 
+
+# Networking
+
+# Web Services 
 
 ## XML
 
@@ -65,3 +69,28 @@ XSD also provides certain prebuilt types such as date and time and has feature t
 ISO 8601 Date/Time format is common in many web applications
 
 {year-month-day}T{time of day, H:M:S}Z{timezone}
+
+## JSON
+
+json is easy
+
+[add notes, come back and clean this up later]
+
+## Service Oriented Aproach
+
+An app can't contain everything
+Services publish rules applications must follow to make use of thier services, APIs
+
+Have to interface between apps and apply standards to those interactions
+
+## APIs
+
+If we take the view opposite the sevice view, we are then building a web application using availible APIs
+
+## Authentication
+
+Acessing external APIs often requires the use of keys or tokens.  
+
+Addtionaly, APIs are also often rate limited, allowing only a maximum number of requests over a time period. 
+
+SOAP and REST are two common frameworks for designing APIs
